@@ -56,7 +56,7 @@ const Skills = () => {
             id:8,
             src:cisco,
             title:'Cisco',
-            style:'shadow-gray-400'
+            style:'shadow-blue-900'
           },
           
       ]
