@@ -19,7 +19,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link:'experience'
+      link:'Skills'
     },
     {
       id: 5,
@@ -34,7 +34,7 @@ const NavBar = () => {
         <ul className="flex hidden-on-small "> 
         {links.map(({id,link})=>(
           <li key={id} className="home cursor-pointer capitalize font-medium text-gray-500 hover:text-gray-700 display:inline-block px-4"> 
-          <Link to={link} smooth duration={500}>{link}</Link>
+          <Link to={link} spy={true} smooth duration={500}>{link}</Link>
           </li>
           ))}
 

@@ -1,13 +1,13 @@
 import React from 'react'
 import css from '../assets/css.png'
 import html from '../assets/html.png'
-import node from '../assets/node.png'
+import django from '../assets/django.png'
 import react from '../assets/react.png'
 import tail from '../assets/tailwind.png'
-import next from '../assets/nextjs.png'
+import ml from '../assets/ml.png'
 import JavaScript from '../assets/javascript.png'
-import GitHub from '../assets/github.png'
-const Experience = () => {
+import cisco from '../assets/cisco.png'
+const Skills = () => {
     const experience =[
         {
           id:1,
@@ -24,8 +24,8 @@ const Experience = () => {
         },
         {
           id:3,
-          src:node,
-          title:'NODE',
+          src:django,
+          title:'Django',
           style:'shadow-green-400'
         },
         {
@@ -42,8 +42,8 @@ const Experience = () => {
         },
         {
           id:6,
-          src:next,
-          title:'NEXTJS',
+          src:ml,
+          title:'Machine Learning',
           style:'shadow-gray-400'
         },
         {
@@ -54,17 +54,17 @@ const Experience = () => {
           },
           {
             id:8,
-            src:GitHub,
-            title:'GitHub',
+            src:cisco,
+            title:'Cisco',
             style:'shadow-gray-400'
           },
           
       ]
       return (
-        <div name='portfolio' className="text-white pb-10 experience pt-20 pl-20 w-full md:h-screen">
-          <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div name="Skills"  className="text-white  pb-10 experience pt-20 pl-20 w-full md:h-screen">
+          <div  className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
-              <p className="text-4xl font-bold inline  border-b-4 border-gray-500">Experience</p>
+              <p className="text-4xl font-bold inline  border-b-4 border-gray-500">Skills</p>
               <p><br />Check out some of my work right here</p>
             </div>
             <div  className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
@@ -97,4 +97,4 @@ const Experience = () => {
       )
 }
 
-export default Experience
+export default Skills
