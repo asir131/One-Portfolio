@@ -4,10 +4,10 @@ import {MdArrowCircleRight} from 'react-icons/md';
 import {Link} from "react-scroll";
 const Home = () => {
   return (
-    <div name="home" className="  h-screen    bar text-white">
-      <div className="  grid grid-flow-col      px-20   ">
+    <div name="home" className="  h-screen sm:flex   bar text-white">
+      <div className="  grid md:grid-flow-col    px-20   ">
         <div className="mt-20  py-16   ml-6 ">
-          <h3 className="text-6xl sm:text-7xl font-bold">
+          <h3 className=" md:text-6xl text-2xl   font-bold">
             I'am a Front end Developer
           </h3>
           
@@ -25,8 +25,8 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="mt-20 py-10 img ">
-          <img src={asir} alt="" className="shadow-lg shadow-yellow-600 rounded-2xl mx-auto w-2/3  "/>
+        <div className="md:mt-20 md:py-10 img ">
+          <img src={asir} alt="" className="shadow-lg shadow-yellow-600 rounded-2xl w-3/4 md:w-2/3  "/>
         </div>
        
       </div>
